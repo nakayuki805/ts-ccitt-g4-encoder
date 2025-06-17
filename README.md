@@ -1,6 +1,6 @@
 ## ts-ccitt-g4-encoder
 
-`ts-ccitt-g4-encoder` は、ピクセルバッファを CCITT G4 Fax 圧縮形式にエンコードするシンプルな TypeScript ライブラリです。図面などの2値画像はPNGでエンコードするよりもG4で圧縮した方が高速で容量も少なくなります。
+`ts-ccitt-g4-encoder` は、ピクセルバッファを CCITT G4 Fax 圧縮形式にエンコードするシンプルな TypeScript ライブラリです。
 
 ---
 
@@ -16,7 +16,7 @@
   `CanvasRenderingContext2D#getImageData` で取得した `ImageData` オブジェクトをそのまま受け取れます。
 
 ---
-<!-->
+<!--
 ### インストール
 
 ```bash
@@ -25,6 +25,7 @@ npm install ts-ccitt-g4-encoder
 
 ---
 -->
+
 ### 使用例
 
 ```typescript
