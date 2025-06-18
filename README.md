@@ -16,7 +16,7 @@
   `CanvasRenderingContext2D#getImageData` で取得した `ImageData` オブジェクトをそのまま受け取れます。
 
 ---
-<!--
+
 ### インストール
 
 ```bash
@@ -24,7 +24,6 @@ npm install ts-ccitt-g4-encoder
 ```
 
 ---
--->
 
 ### 使用例
 
