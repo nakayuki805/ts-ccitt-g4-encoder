@@ -1,0 +1,47 @@
+{
+  "name": "ts-ccitt-g4-encoder",
+  "version": "1.0.0",
+  "description": "Encode 2-bit image buffer to CCITT G4 Fax Compression",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "tsx test/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakayuki805/ts-ccitt-g4-encoder.git"
+  },
+  "keywords": [
+    "CCITT",
+    "G4",
+    "compress",
+    "compression",
+    "image"
+  ],
+  "author": "nakayuki805",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nakayuki805/ts-ccitt-g4-encoder/issues"
+  },
+  "homepage": "https://github.com/nakayuki805/ts-ccitt-g4-encoder#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
