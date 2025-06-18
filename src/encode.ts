@@ -33,7 +33,7 @@ export function encode(imageBuffer: Uint8Array, width: number, height: number): 
             const oldBuffer = outBuffer;
             outBuffer = new Uint8Array(Math.ceil((outBufferLength + octets) * 1.5)); // バッファーを拡張
             outBuffer.set(oldBuffer.slice(0, outBufferLength)); // 既存のデータをコピー
-            console.warn("Output buffer overflow. Increasing buffer size to", outBuffer.length);
+            // console.warn("Output buffer overflow. Increasing buffer size to", outBuffer.length);
         }
         const bytes:number[] = [];
         for(let i = 0; i < octets; i++) {
